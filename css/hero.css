@@ -1,0 +1,90 @@
+.hero {
+    height: 100vh;
+    /* background: url(/Project-C4-Group7/images/Hero.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover; */
+    /* same as this  */
+    background: url(/Project-C4-Group7/images/Hero.png) no-repeat scroll center center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero .headline {
+    width: 350px;
+    z-index: 2;
+    background-color: rgba(255, 255, 255, 0.74);
+    padding: 35px 20px;
+    text-align: center;
+    
+    
+}
+
+.headline h1 {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+.hero .container {
+    width: 94%;
+    margin: 0 auto;
+    position: absolute;
+    top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+}
+
+.menu_icons {
+    color: white;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: o;
+    background-color: rgba(0, 0, 0, 0.50);
+    
+}
+
+.shopnow_btn {
+    font-family: 'Dosis', sans-serif;
+    border-bottom: 1px solid;
+    color:black;
+}
+
+
+@media (min-width:900px) {
+
+    .nav ul {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        color: white;
+    }
+
+    .nav li:not(:nth-child(1)) {
+        margin-left: 25px;
+    }
+
+    .hero .headline {
+        padding: 45px 30px;
+        width: 450px;
+    }
+
+
+
+}
+
+@media (max-width:899px) {
+    .nav {
+        display: none;
+    }
+}

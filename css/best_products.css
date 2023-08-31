@@ -1,0 +1,125 @@
+.christoper {
+    background: url(/Project-C4-Group7/images/Christopher_Knight_Furniture.png) no-repeat scroll center center  / cover;
+}
+
+.wheat_straw {
+    background: url(/Project-C4-Group7/images/Wheat_Straw_unbreakable_cup.png) no-repeat scroll center center  / cover;
+}
+
+.adidas {
+    background: url(/Project-C4-Group7/images/Adidas_Classic_Bag.png) no-repeat scroll center center  / cover;
+}
+
+.desk_pencil {
+    background: url(/Project-C4-Group7/images/Desk_Pencil-Pen_Holder.png) no-repeat scroll center center  / cover;
+}
+
+.ripple_creak {
+    background: url(/Project-C4-Group7/images/Ripple_Creak_Key_Holder.png) no-repeat scroll center center  / cover;
+}
+
+.economical {
+    background: url(/Project-C4-Group7/images/Economical_Cotton_Canvas.png) no-repeat scroll center center  / cover;
+}
+
+.michael {
+    background: url(/Project-C4-Group7/images/Michael_Kors_Original.png) no-repeat scroll center center  / cover;
+}
+
+.bostanten {
+    background: url(/Project-C4-Group7/images/Bostanten_Women_Leather.png) no-repeat scroll center center  / cover;
+}
+
+.best_products .container {
+    width: auto;
+    height: 350px;
+    padding: 20px;
+    margin-bottom: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    
+}
+
+.best_products h2 {
+    text-align: center;
+    margin: 30px 0;
+    font-size: 30px;
+}
+
+.best_products {
+    padding: 10px;
+}
+
+.best_products .overlay {
+    width: 350px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+.best_products p {
+    z-index: 2;
+}
+
+
+@media (min-width:700px) and (max-width:900px) {
+    .tab_desk  {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin: 0 auto;
+    
+    }
+
+    .best_products .container {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .best_products .overlay {
+        width: 250px;
+        height: 250px;
+        background-color: rgba(0, 0, 0, 0.50);
+    }
+
+    .best_products h2 {
+        font-size: 32px;
+    }
+
+
+}
+
+@media (min-width:900px) {
+    .tab_desk  {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin: 0 auto;
+    
+    }
+
+    .best_products .container {
+        width: 290px;
+        height: 290px;
+    }
+    
+    .best_products .overlay {
+        width: 290px;
+        height: 290px;
+        background-color: rgba(0, 0, 0, 0.50);
+    }
+
+    .best_products h2 {
+        font-size: 32px;
+    }
+
+    .best_products {
+        margin: 0 auto;
+        padding: 0 auto;
+
+
+}
