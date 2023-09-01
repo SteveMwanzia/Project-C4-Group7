@@ -30,7 +30,7 @@
     background: url(/Project-C4-Group7/images/Bostanten_Women_Leather.png) no-repeat scroll center center  / cover;
 }
 
-.best_products .container {
+.best_products .product {
     width: auto;
     height: 350px;
     padding: 20px;
@@ -69,14 +69,14 @@
 
 
 @media (min-width:700px) and (max-width:900px) {
-    .tab_desk  {
+    .products_container  {
         display: grid;
         grid-template-columns: auto auto auto;
         margin: 0 auto;
     
     }
 
-    .best_products .container {
+    .best_products .product {
         width: 250px;
         height: 250px;
     }
@@ -95,14 +95,15 @@
 }
 
 @media (min-width:900px) {
-    .tab_desk  {
+
+    .products_container   {
         display: grid;
         grid-template-columns: auto auto auto auto;
         margin: 0 auto;
     
     }
 
-    .best_products .container {
+    .best_products .product {
         width: 290px;
         height: 290px;
     }
@@ -120,6 +121,6 @@
     .best_products {
         margin: 0 auto;
         padding: 0 auto;
-
-
 }
+    
+
