@@ -11,12 +11,13 @@
 }
 
 .recent_news .container {
-    width: 94%;
+    width: 100%;
     margin: 0 auto;
 }
 
 .recent_news {
     padding: 20px 0;
+    margin: 50px;
 }
 
 .recent_news h2 {
@@ -27,7 +28,10 @@
 
 .recents_container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: auto auto auto;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
     gap: 20px;
 }
 
@@ -73,8 +77,8 @@
     }
 
     .recents {
-        height: 350px;
-        width: 350px;
+        height: 300px;
+        width: 300px;
     }
 }
 
@@ -86,5 +90,9 @@
     .recents {
         height: 350px;
         width: 350px;
+    }
+
+    .recent_news {
+        margin: 0 20px;
     }
 }

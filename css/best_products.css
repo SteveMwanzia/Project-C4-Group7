@@ -72,7 +72,7 @@
     .products_container  {
         display: grid;
         grid-template-columns: auto auto auto;
-        margin: 0 auto;
+        justify-content: space-evenly;
     
     }
 
@@ -90,6 +90,7 @@
     .best_products h2 {
         font-size: 32px;
     }
+    
 
 
 }
@@ -99,8 +100,7 @@
     .products_container   {
         display: grid;
         grid-template-columns: auto auto auto auto;
-        margin: 0 auto;
-    
+        justify-content: space-between;
     }
 
     .best_products .product {
@@ -120,7 +120,7 @@
 
     .best_products {
         margin: 0 auto;
-        padding: 0 auto;
+        padding: 0 50px;
 }
     
-
+}
